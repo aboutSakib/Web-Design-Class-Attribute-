@@ -1,0 +1,93 @@
+/* pesudo class */
+
+/* .demo:hover {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  font-size: 20px;
+} */
+
+/* .demo:first-child {
+  background-color: red;
+}  */
+
+/* .demo p:first-child {
+  color: aqua;
+} */
+
+/* .parents h1:first-child {
+  color: red;
+} */
+
+/* .parents h1:nth-child(2) {
+  color: red;
+} */
+/* .parents h1:nth-child(2) {
+  color: red;
+} */
+/* .parents h1:nth-child(even) {
+  color: red;
+} */
+/* .parents h1:nth-child(odd) {
+  color: red;
+} */
+/* .parents h1:first-of-type {
+  color: green;
+} */
+/* .demo p:first-of-type {
+  color: green;
+} */
+/* .demo p:last-of-type {
+  color: green;
+} */
+
+/* pesudo elements */
+/* #title::first-line {
+  color: red;
+}
+span {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+p::first-letter {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+} */
+/* .demoTwo::after {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 25px;
+  background-color: aqua;
+  margin: 0 auto;
+}
+.demoTwo::before {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 25px;
+  background-color: aqua;
+  margin: 0 auto;
+} */
+/* h1::after {
+  content: "";
+  display: block;
+  width: 13%;
+  height: 10px;
+  background-color: rgb(180, 28, 28);
+  margin-left: 12%;
+} */
+
+[target~="_self"] {
+  color: pink;
+}
+[title~="totini"] {
+  color: red;
+}
+[title~="BD"] {
+  color: blue;
+  background-color: brown;
+}
